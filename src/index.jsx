@@ -1,10 +1,10 @@
 import { memo } from "react";
 import { createRoot } from "react-dom/client";
 import {
-  NavLink as RouterLink,
   Navigate,
+  NavLink as RouterLink,
   RouterProvider,
-  createBrowserRouter,
+  createHashRouter,
 } from "react-router-dom";
 import "./styles.css";
 import { OutletCssTransition } from "./transition";
@@ -113,7 +113,7 @@ const Home = memo(() => {
   );
 });
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Example />,
