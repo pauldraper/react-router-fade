@@ -1,6 +1,7 @@
 {
   "name": "react-router-transition",
   "version": "1.0.0",
+  "homepage": "https://pauldraper.github.io/react-router-fade",
   "license": "MIT",
   "author": "Paul Draper <paulddraper@gmail.com>",
   "scripts": {
