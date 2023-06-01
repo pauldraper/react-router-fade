@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 16px;
+}
+
+.container {
+  position: relative;
+}
+
+.main-page {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nav-link {
+  color: #444;
+  padding: 12px 16px;
+}
+
+.nav-link.nav-link {
+  text-decoration: none;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.nav {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+}
+
+.page:not(:last-child) {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.page-enter {
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.page-exit-done {
+  display: none;
+}

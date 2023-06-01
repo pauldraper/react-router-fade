@@ -1,0 +1,27 @@
+{
+  "name": "react-router-transition",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Paul Draper <paulddraper@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router-dom": "^6",
+    "react-transition-group": "^4"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "react-scripts": "^5"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "development": [
+      "defaults"
+    ]
+  }
+}
